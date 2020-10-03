@@ -41,8 +41,22 @@ class MovieDetailsViewController: UIViewController {
 
     // Do any additional setup after loading the view.
     }
+    //3ab38ccb961b1f9a4e90350d59729851 : api key
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let selectedMovie = movie["id"] as! Int
+        let trailerViewController = segue.destination as! TrailerViewController
+        trailerViewController.id = selectedMovie
+     
+        
     
-
+    
+        
+        
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
@@ -52,5 +66,8 @@ class MovieDetailsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func posterPressed(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "trailerSegue", sender: nil)
+    }
+    
 }

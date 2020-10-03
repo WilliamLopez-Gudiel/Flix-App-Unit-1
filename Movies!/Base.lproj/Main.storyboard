@@ -108,12 +108,12 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uyk-qN-qX8">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uyk-qN-qX8">
                                 <rect key="frame" x="20" y="323" width="118" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="jHo-uh-xSg" appends="YES" id="L4x-Ir-7zy"/>
+                                    <outletCollection property="gestureRecognizers" destination="yQI-It-hbO" appends="YES" id="lGc-F7-cJk"/>
                                 </connections>
                             </imageView>
                         </subviews>
@@ -130,9 +130,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxN-AZ-fJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="jHo-uh-xSg">
+                <tapGestureRecognizer id="yQI-It-hbO">
                     <connections>
-                        <action selector="posterPressed:" destination="UTg-Bt-DUg" id="G20-Ce-mjj"/>
+                        <action selector="posterPressed:" destination="UTg-Bt-DUg" id="19S-cY-Syp"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
