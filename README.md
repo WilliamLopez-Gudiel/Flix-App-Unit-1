@@ -39,7 +39,7 @@ Adding Trailers and using Webkit was new and challenging to me.
 - [x] (1pt) Run your app on a real device.
 
 
-<img src="http://g.recordit.co/udXQqcwqce.gif" width=250><br>
+<img src="http://g.recordit.co/IjGwRrpfcC.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app:
