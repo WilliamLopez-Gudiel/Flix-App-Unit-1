@@ -1,46 +1,52 @@
-# Flix
+# Project 2 - *Name of App Here*
 
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Submitted by: **Your Name Here**
 
-## Flix Part 2
+**Name of your app** is a movie browsing app that... [TODO] 
 
-### User Stories
+Time spent: **X** hours spent in total
 
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+## Required Features
 
-#### BONUS
-- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+The following **required** functionality is completed:
 
-### App Walkthrough GIF
+- [x] Users are able to see a customized app icon and launch screen
+- [x] Your app should work for any screen size and orientation using AutoLayout constraints
+ 
+- [x] Displays at least 5 different movies in a table view
+- [x] Can tap into detail view of movie with a full description, backdrop image, and title
+ 
+The following **optional** features are implemented:
 
-<img src="https://recordit.co/RBdv9ocNwY.gif" width=250><br>
-<img src="https://recordit.co/6QoqTQVaV6.gif" width=250><br>
-
-### Notes
-Adding Trailers and using Webkit was new and challenging to me.
-
----
-
-## Flix Part 1
-
-### User Stories
+- [x] Unique UI changes, such as background, font/color changes, etc.
+- [ ] User implements a collection view
+- [ ] User implemenets tab bar controller with at least two screens
 
 
-#### REQUIRED (10pts)
-- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [x] (3pts) User can view the movie poster image for each movie.
+## Video Walkthrough
 
-#### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [x] (1pt) Run your app on a real device.
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/IjGwRrpfcC.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
-<img src="http://g.recordit.co/IjGwRrpfcC.gif" width=250><br>
 
-### Notes
-Describe any challenges encountered while building the app:
- Nothing yet!
+Describe any challenges encountered while building the app.
+
+autolayout was quite tricky
+
+## License
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
