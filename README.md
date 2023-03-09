@@ -1,10 +1,12 @@
-# Project 2 - *Name of App Here*
+# Project 2 - Flix
 
-Submitted by: **Your Name Here**
+Submitted by: William Lopez
 
 **Name of your app** is a movie browsing app that... [TODO] 
 
 Time spent: **X** hours spent in total
+
+4
 
 ## Required Features
 
@@ -27,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/IjGwRrpfcC.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/RBdv9ocNwY.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
